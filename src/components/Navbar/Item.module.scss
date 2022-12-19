@@ -1,9 +1,11 @@
+@use '../../assets/global.module.scss' as global;
+
 .item {
     display: flex;
     align-items: center;
     padding: 20px;
     height: 50%;
     text-decoration: none;
-    color: white;
-    text-underline-offset: 5px;
+    color: global.$colorPrimaryLight;
+    text-underline-offset: 7px;
 }

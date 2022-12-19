@@ -1,9 +1,9 @@
-import React from 'react';
+import styles from './Home.module.scss';
 import Picture from './Picture';
 
 const Home = () => {
     return (
-        <div>
+        <div className={styles.home}>
             <Picture />
         </div>
     );

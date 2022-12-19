@@ -1,3 +1,5 @@
+@use '../../assets/global.module.scss' as global;
+
 .title {
     display: flex;
     align-items: center;
@@ -6,5 +8,6 @@
     font-family: 'Chango';
     padding-left: 20px;
     text-decoration: none;
-    color: white;
+    color: global.$colorPrimaryLight;
+    filter: drop-shadow(4px 4px 3px black);
 }
