@@ -1,0 +1,21 @@
+.aboutCard {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15vw;
+
+    .cardText {
+        font-size: 1.2rem;
+        max-width: 50%;
+        text-align: justify;
+        line-height: 2rem;
+    }
+    .cardImage {
+        max-height: 500px;
+        background-position: center;
+        background-size: contain;
+        border: 3px solid rgba(255, 255, 255, 0.75);
+        border-radius: 5px;
+    }
+}
