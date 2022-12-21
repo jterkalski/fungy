@@ -1,7 +1,9 @@
+@use '../../assets/global.module.scss' as global;
+
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: darkslategrey;
+    background-color: global.$backgroundSecondary;
     width: 100%;
     padding: 20px 0;
 }

@@ -5,7 +5,7 @@ import Title from './Title';
 
 const Navbar = () => {
     return (
-        <div className={styles.navbarContainer}>
+        <div className={styles.navbar}>
             <Title />
             <Spacer />
             <ItemsBar />

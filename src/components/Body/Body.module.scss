@@ -1,7 +1,9 @@
+@use '../../assets/global.module.scss' as global;
+
 .body {
     width: 100%;
     height: 100vh;
-    background: hsl(180, 25%, 15%);
+    background: global.$backgroundPrimary;
     overflow-y: scroll;
     overflow: overlay;
 }

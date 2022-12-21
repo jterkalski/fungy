@@ -1,9 +1,8 @@
-.navbarContainer {
+@use '../../assets/global.module.scss' as global;
+
+.navbar {
     position: absolute;
     display: flex;
     width: 100%;
     font-family: 'Chango', cursive;
-    color: white;
-    // background-color: rgba(255, 0, 0, 0.2);
-    // border: 1px solid red;
 }

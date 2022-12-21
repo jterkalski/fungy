@@ -4,11 +4,16 @@
     display: flex;
     font-size: 1.75rem;
     align-items: center;
+
     .line {
         width: 10%;
         max-width: 100px;
         height: 0.1em;
-        background: global.$colorPrimaryLight;
+        background: global.$fontColorPrimary;
         margin: 0 20px;
+    }
+
+    .text {
+        color: global.$fontColorPrimary;
     }
 }
