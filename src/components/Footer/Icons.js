@@ -16,29 +16,29 @@ const Icons = () => {
                 alt='spotify logo'
             />
             <Icon
-                href='https://open.spotify.com/artist/3W9KJm1EVanHDVh80YkLQS'
+                href='https://www.instagram.com/fungy_band/'
                 src={instagramIcon}
                 alt='instagram logo'
             />
             <Icon
-                href='https://open.spotify.com/artist/3W9KJm1EVanHDVh80YkLQS'
+                href='https://www.facebook.com/fungy.band'
                 src={facebookIcon}
-                alt='instagram logo'
+                alt='facebook logo'
             />
             <Icon
-                href='https://open.spotify.com/artist/3W9KJm1EVanHDVh80YkLQS'
+                href='https://www.youtube.com/channel/UCXyQaRr4I7wIwtRSrFdyDnA'
                 src={youtubeIcon}
-                alt='instagram logo'
+                alt='youtube logo'
             />
             <Icon
-                href='https://open.spotify.com/artist/3W9KJm1EVanHDVh80YkLQS'
+                href='https://music.apple.com/pl/artist/fungy/1530002852'
                 src={appleMusicIcon}
-                alt='instagram logo'
+                alt='apple music logo'
             />
             <Icon
-                href='https://open.spotify.com/artist/3W9KJm1EVanHDVh80YkLQS'
+                href='https://tidal.com/browse/artist/21139499'
                 src={tidalIcon}
-                alt='instagram logo'
+                alt='tidal logo'
             />
         </div>
     );
