@@ -1,8 +1,14 @@
 .music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-height: 100vh;
 }
 
 .musicSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .musicSectionBody {
@@ -12,6 +18,11 @@
 }
 
 .musicSectionText {
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
     margin-left: 20px;
+    span {
+        margin-top: 10px;
+    }
 }

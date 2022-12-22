@@ -4,7 +4,7 @@ const Iframe = ({ src, title }) => {
     return (
         <iframe
             width='100%'
-            src={src + '?autoplay=1'}
+            src={src}
             title={title}
             allow='autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen
