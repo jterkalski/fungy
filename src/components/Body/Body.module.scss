@@ -10,12 +10,12 @@
 }
 
 .body::-webkit-scrollbar {
-    width: 8px; /* vertical scroll width */
+    width: 10px; /* vertical scroll width */
     height: 12px; /* horizontal scroll height */
 }
 
 .body::-webkit-scrollbar-button {
-    height: 300px; /* vertical scroll height */
+    height: 100px; /* vertical scroll height */
 }
 
 .body::-webkit-scrollbar-thumb {
