@@ -11,18 +11,18 @@ const Contact = () => {
             <SectionHeader text='Skontaktuj się z nami' />
             <div className={styles.info}>
                 <div className={styles.email}>
-                    <img src={emailIcon} />
+                    <img src={emailIcon} alt='email-icon' />
                     <div>{email}</div>
                 </div>
                 <div className={styles.facebook}>
                     <a href={facebook} target='_blank' rel='noopener noreferrer'>
-                        <img src={facbookIcon} />
+                        <img src={facbookIcon} alt='facebook-logo' />
                         <div>facebook.com/fungy_band</div>
                     </a>
                 </div>
                 <div className={styles.instagram}>
                     <a href={instagram} target='_blank' rel='noopener noreferrer'>
-                        <img src={instagramIcon} />
+                        <img src={instagramIcon} alt='instagram-logo' />
                         <div>instagram.com/fungy_band</div>
                     </a>
                 </div>

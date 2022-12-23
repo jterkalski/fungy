@@ -1,4 +1,4 @@
-import styles from './Iframe.module.scss';
+import './Iframe.module.scss';
 
 const Iframe = ({ src, title }) => {
     return (

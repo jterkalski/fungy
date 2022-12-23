@@ -5,7 +5,6 @@ import image1 from '../../assets/images/about/1.jpg';
 import image2 from '../../assets/images/about/2.jpg';
 import image3 from '../../assets/images/about/3.jpg';
 import image4 from '../../assets/images/about/4.jpg';
-import logo from '../../assets/images/about/FUNGY_LOGO.jpg';
 
 const About = () => {
     const text1 = `Jesteśmy młodym zespołem z Krakowa złożonym z czwórki dobrych przyjaciół.
