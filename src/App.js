@@ -18,6 +18,7 @@ const App = () => {
     const handleLocationChange = (newLocation) => {
         setLocation(newLocation);
     };
+
     useEffect(() => {
         bodyRef.current.addEventListener('scroll', handleScroll, { passive: true });
         if (scrollPosition > 10) {
