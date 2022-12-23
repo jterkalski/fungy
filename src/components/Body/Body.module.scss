@@ -6,6 +6,7 @@
     padding-top: 120px;
     background: global.$backgroundPrimary;
     overflow-y: scroll;
+    scroll-behavior: smooth;
     overflow: overlay;
 }
 

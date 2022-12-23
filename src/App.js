@@ -5,12 +5,18 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import React, { useState, useEffect, useRef } from 'react';
 
 const App = () => {
+    const [location, setLocation] = useState();
     const [isActive, setIsActive] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const bodyRef = useRef(null);
+
     const handleScroll = () => {
         const position = bodyRef.current.scrollTop;
         setScrollPosition(position);
+    };
+
+    const handleLocationChange = (newLocation) => {
+        setLocation(newLocation);
     };
     useEffect(() => {
         bodyRef.current.addEventListener('scroll', handleScroll, { passive: true });
@@ -25,11 +31,15 @@ const App = () => {
         };
     }, [scrollPosition]);
 
+    useEffect(() => {
+        bodyRef.current.scrollTo(0, 0);
+    }, [location]);
+
     return (
         <div className={styles.app}>
             <Router>
                 <Navbar active={isActive} />
-                <Body ref={bodyRef} />
+                <Body ref={bodyRef} setLocation={handleLocationChange} />
             </Router>
         </div>
     );

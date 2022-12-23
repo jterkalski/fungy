@@ -5,9 +5,16 @@ import Home from '../../pages/Home/Home';
 import Music from '../../pages/Music/Music';
 import Footer from '../Footer/Footer';
 import styles from './Body.module.scss';
-import { forwardRef } from 'react';
+import { forwardRef, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
-const Body = (props, ref) => {
+const Body = ({ setLocation }, ref) => {
+    const location = useLocation();
+
+    useEffect(() => {
+        setLocation(location);
+    }, [location.pathname]);
+
     return (
         <div className={styles.body} ref={ref}>
             <Routes>
