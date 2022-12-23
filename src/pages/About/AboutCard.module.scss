@@ -5,7 +5,7 @@
     height: 80vh;
     align-items: center;
     justify-content: space-around;
-    padding: 0 15vw;
+    padding: 0 10vw;
 
     .cardText {
         font-size: 1.2rem;
@@ -15,7 +15,7 @@
         color: global.$fontColorPrimary;
     }
     .cardImage {
-        max-height: 500px;
+        height: 90%;
         background-position: center;
         background-size: contain;
         border: 3px solid rgba(255, 255, 255, 0.75);
