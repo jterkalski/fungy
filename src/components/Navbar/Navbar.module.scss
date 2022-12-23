@@ -5,4 +5,11 @@
     display: flex;
     width: 100%;
     font-family: 'Chango', cursive;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+.active {
+    background: global.$backgroundPrimary;
+    box-shadow: 0 0 10px black;
 }

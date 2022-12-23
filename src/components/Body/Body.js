@@ -5,10 +5,11 @@ import Home from '../../pages/Home/Home';
 import Music from '../../pages/Music/Music';
 import Footer from '../Footer/Footer';
 import styles from './Body.module.scss';
+import { forwardRef } from 'react';
 
-const Body = () => {
+const Body = (props, ref) => {
     return (
-        <div className={styles.body}>
+        <div className={styles.body} ref={ref}>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/music' element={<Music />} />
@@ -20,4 +21,6 @@ const Body = () => {
     );
 };
 
-export default Body;
+const forwardedBody = forwardRef(Body);
+
+export default forwardedBody;

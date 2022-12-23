@@ -3,9 +3,9 @@ import ItemsBar from './ItemsBar';
 import Spacer from './Spacer';
 import Title from './Title';
 
-const Navbar = () => {
+const Navbar = ({ active }) => {
     return (
-        <div className={styles.navbar}>
+        <div className={active ? `${styles.navbar} ${styles.active}` : styles.navbar}>
             <Title />
             <Spacer />
             <ItemsBar />
