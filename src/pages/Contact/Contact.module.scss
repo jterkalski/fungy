@@ -1,3 +1,30 @@
 .contact {
-    min-height: 100vh;
+    min-height: calc(100vh - 120px);
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+        * {
+            display: flex;
+            align-items: center;
+            img {
+                filter: invert(1);
+                height: 2rem;
+                align-self: center;
+                margin-right: 20px;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+        .email {
+            margin-bottom: 20px;
+        }
+        .facebook {
+            margin-bottom: 20px;
+        }
+        .instagram {
+        }
+    }
 }
