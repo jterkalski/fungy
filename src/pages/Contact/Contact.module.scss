@@ -1,5 +1,8 @@
+@use '../../assets/global.module.scss' as global;
+
 .contact {
     min-height: calc(100vh - 120px);
+    animation: global.$animationShow;
 
     .info {
         display: flex;

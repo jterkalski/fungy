@@ -1,3 +1,6 @@
+@use '../../assets/global.module.scss' as global;
+
 .about {
     min-height: 100vh;
+    animation: global.$animationShow;
 }

@@ -1,8 +1,11 @@
+@use '../../assets/global.module.scss' as global;
+
 .music {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    animation: global.$animationShow;
 }
 
 .musicSection {
