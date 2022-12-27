@@ -13,3 +13,15 @@ $animationShow: show 1s;
         opacity: 1;
     }
 }
+
+// media query breakpoints (max-width)
+
+$mediaTabletPortrait: 800px;
+
+$mediaTabletLandscape: 800px;
+
+$mediaSmartphonePortrait: 320px;
+$mediaSmartphoneLandscape: 480px;
+
+// $mediaDesktop1: 1025px; // big landscape tablets, laptops, and desktops
+// $mediaDesktop2: 1280px; // hi-res laptops and desktops

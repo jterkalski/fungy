@@ -1,9 +1,29 @@
+@use '../../assets/global.module.scss' as global;
+
+$desktopSize: 2.2rem;
+$tabletSize: 1.5rem;
+
+$desktopWidth: 16 * $desktopSize;
+$desktopHeight: 9 * $desktopSize;
+
+$tabletWidth: 16 * $tabletSize;
+$tabletHeight: 9 * $tabletSize;
+
 iframe {
     border: 1px none;
-    height: 9 * 2.2rem;
-    width: 16 * 2.2rem;
-    min-height: 9 * 2.2rem;
-    min-width: 16 * 2.2rem;
+    width: $desktopWidth;
+    height: $desktopHeight;
+    min-width: $desktopWidth;
+    min-height: $desktopHeight;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: global.$mediaTabletPortrait) {
+    iframe {
+        width: $tabletWidth;
+        height: $tabletHeight;
+        min-width: $tabletWidth;
+        min-height: $tabletHeight;
+    }
 }

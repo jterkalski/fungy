@@ -1,0 +1,20 @@
+@use '../../assets/global.module.scss' as global;
+
+.menuButton {
+    display: none;
+}
+
+@media (max-width: global.$mediaTabletPortrait) {
+    .menuButton {
+        display: block;
+        border: none;
+        background: rgba(0, 0, 0, 0);
+        z-index: 20;
+
+        .menuIcon {
+            filter: invert(1);
+            width: 2rem;
+            margin: 10px 20px;
+        }
+    }
+}
