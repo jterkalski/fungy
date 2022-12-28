@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fungy/static/css/main.cbbd1cc7.css",
-    "main.js": "/fungy/static/js/main.91cf36c9.js",
+    "main.css": "/fungy/static/css/main.9a147083.css",
+    "main.js": "/fungy/static/js/main.1a379aea.js",
     "static/media/2.jpg": "/fungy/static/media/2.0f85a851ba9e27b37ce6.jpg",
     "static/media/4.jpg": "/fungy/static/media/4.b32c4bb7fd99ea73bc98.jpg",
     "static/media/3.jpg": "/fungy/static/media/3.111538c097414f638055.jpg",
@@ -17,11 +17,11 @@
     "static/media/menu-icon.svg": "/fungy/static/media/menu-icon.20154236d06f10f27189d0956d110f48.svg",
     "static/media/email-contact-icon.svg": "/fungy/static/media/email-contact-icon.72ba2a3a098b1fb84f4cd560ecfd4c19.svg",
     "static/media/facebook-icon.svg": "/fungy/static/media/facebook-icon.31b0ada1ed98d064fe43c889dcec17a5.svg",
-    "main.cbbd1cc7.css.map": "/fungy/static/css/main.cbbd1cc7.css.map",
-    "main.91cf36c9.js.map": "/fungy/static/js/main.91cf36c9.js.map"
+    "main.9a147083.css.map": "/fungy/static/css/main.9a147083.css.map",
+    "main.1a379aea.js.map": "/fungy/static/js/main.1a379aea.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbbd1cc7.css",
-    "static/js/main.91cf36c9.js"
+    "static/css/main.9a147083.css",
+    "static/js/main.1a379aea.js"
   ]
 }
