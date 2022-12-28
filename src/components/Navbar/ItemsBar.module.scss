@@ -26,3 +26,13 @@
         left: 110vw;
     }
 }
+
+@media (max-width: global.$mediaSmartphonePortrait) {
+    .itemBar {
+        left: 0;
+        height: 50%;
+    }
+    .hidden {
+        top: -110vw;
+    }
+}

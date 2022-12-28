@@ -11,3 +11,9 @@
     color: global.$fontColorPrimary;
     filter: drop-shadow(4px 4px 3px black);
 }
+
+@media (max-width: global.$mediaSmartphonePortrait) {
+    .title {
+        font-size: 3rem;
+    }
+}

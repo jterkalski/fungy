@@ -13,9 +13,3 @@
     background: rgba(lighten(global.$backgroundPrimary, 2%), 0.95);
     box-shadow: 0 0 10px black;
 }
-
-@media (max-width: global.$mediaTabletPortrait) {
-    .navbar {
-        // background: red;
-    }
-}
