@@ -22,3 +22,23 @@
         border-radius: 5px;
     }
 }
+
+@media (max-width: global.$mediaTabletPortrait) {
+    .aboutCard {
+        height: auto;
+        align-items: flex-start;
+        padding: 5vw;
+
+        .cardText {
+            align-self: center;
+            padding: 10px 5vw;
+            font-size: 1.3rem;
+            text-align: start;
+        }
+
+        .cardImage {
+            width: 60%;
+            height: auto;
+        }
+    }
+}

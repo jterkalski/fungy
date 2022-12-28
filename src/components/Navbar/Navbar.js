@@ -16,7 +16,7 @@ const Navbar = ({ active }) => {
         <div className={active ? `${styles.navbar} ${styles.active}` : styles.navbar}>
             <Title />
             <Spacer />
-            <ItemsBar visible={menuVisible} />
+            <ItemsBar visible={menuVisible} onClick={handleMobileMenu} />
             <MenuButton onClick={handleMobileMenu} />
         </div>
     );

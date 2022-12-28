@@ -4,3 +4,9 @@
     min-height: 100vh;
     animation: global.$animationShow;
 }
+
+@media (max-width: global.$mediaTabletPortrait) {
+    .about {
+        margin-bottom: 100px;
+    }
+}
