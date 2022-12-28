@@ -23,21 +23,23 @@
     }
 }
 
-@media (max-width: global.$mediaTabletPortrait) {
+@media (max-width: calc(global.$mediaTabletPortrait + 750px)) {
     .aboutCard {
         height: auto;
         align-items: flex-start;
-        padding: 5vw;
+        padding: 5%;
+        max-height: 100vh;
 
         .cardText {
             align-self: center;
-            padding: 10px 5vw;
+            padding: 10px 5%;
             font-size: 1.3rem;
             text-align: start;
         }
 
         .cardImage {
             width: 60%;
+            max-width: 50vh;
             height: auto;
         }
     }
