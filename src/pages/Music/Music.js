@@ -86,7 +86,7 @@ const Music = () => {
                         title='Whaling'
                     />
                     <div className={styles.musicSectionText}>
-                        Zespół Fungy z dumą prezentuje:
+                        <span>Zespół Fungy z dumą prezentuje:</span>
                         <span>
                             Opowieść o starym poławiaczu wielorybów bazująca na
                             autentycznych rodzinnych przekazach ustnych jednego z członków
@@ -100,9 +100,11 @@ const Music = () => {
                             bestii i brutalnego losu, który zantagonizował te dwa jakże
                             odmienne światy..
                         </span>
-                        Tak naprawdę to nie, wymyśliliśmy ten kawałek na poczekaniu w
-                        transporcie miejskim, ale wciąż go kochamy. Teraz udostępniamy go
-                        Wam.
+                        <span>
+                            Tak naprawdę to nie, wymyśliliśmy ten kawałek na poczekaniu w
+                            transporcie miejskim, ale wciąż go kochamy. Teraz udostępniamy
+                            go Wam.
+                        </span>
                         <span>- Wasz fungus</span>
                     </div>
                 </div>

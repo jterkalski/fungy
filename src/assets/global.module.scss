@@ -1,7 +1,8 @@
-$backgroundPrimary: rgb(29, 48, 48); // body
-$backgroundSecondary: darkslategrey; // footer
+$backgroundPrimary: #1e393e; // body
 
-$fontColorPrimary: white;
+$backgroundSecondary: lighten($backgroundPrimary, 10%); // e.g.footer
+
+$fontColorPrimary: rgb(243, 243, 243);
 
 $animationShow: show 1s;
 
@@ -25,3 +26,12 @@ $mediaSmartphoneLandscape: 480px;
 
 // $mediaDesktop1: 1025px; // big landscape tablets, laptops, and desktops
 // $mediaDesktop2: 1280px; // hi-res laptops and desktops
+
+$desktopSize: 2.2rem;
+$tabletSize: 2.2rem;
+
+$desktopWidth: 16 * $desktopSize;
+$desktopHeight: 9 * $desktopSize;
+
+$tabletWidth: 16 * $tabletSize;
+$tabletHeight: 9 * $tabletSize;

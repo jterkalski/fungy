@@ -12,20 +12,38 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    // background-color: red;
+    .musicSectionBody {
+        display: flex;
+        align-items: center;
+        padding: 20px 30px 20px 20px;
+    }
+
+    .musicSectionText {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 0 2%;
+        span {
+            margin-top: 10px;
+            color: global.$fontColorPrimary;
+        }
+    }
 }
 
-.musicSectionBody {
-    display: flex;
-    align-items: center;
-    padding: 20px 30px 20px 20px;
-}
+@media (max-width: calc(global.$mediaTabletPortrait + 300px)) {
+    .musicSection {
+        width: 100%;
+        .musicSectionBody {
+            padding-top: 2em;
+            flex-direction: column;
+            // background-color: red;
+        }
 
-.musicSectionText {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    margin-left: 20px;
-    span {
-        margin-top: 10px;
+        .musicSectionText {
+            // background-color: orange;
+            margin-top: 20px;
+            width: global.$tabletWidth;
+        }
     }
 }
