@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fungy/static/css/main.3280e262.css",
-    "main.js": "/fungy/static/js/main.79d51bc4.js",
+    "main.css": "/fungy/static/css/main.cbbd1cc7.css",
+    "main.js": "/fungy/static/js/main.91cf36c9.js",
     "static/media/2.jpg": "/fungy/static/media/2.0f85a851ba9e27b37ce6.jpg",
     "static/media/4.jpg": "/fungy/static/media/4.b32c4bb7fd99ea73bc98.jpg",
     "static/media/3.jpg": "/fungy/static/media/3.111538c097414f638055.jpg",
@@ -14,13 +14,14 @@
     "static/media/youtube-icon.svg": "/fungy/static/media/youtube-icon.bdb14890d6ed391a248be70a0588f3af.svg",
     "static/media/spotify-icon.svg": "/fungy/static/media/spotify-icon.6ded082f491083b42b315c79a7b2bb8a.svg",
     "static/media/facebook-contact-icon.svg": "/fungy/static/media/facebook-contact-icon.85902bbb9d505d319183f77556055200.svg",
+    "static/media/menu-icon.svg": "/fungy/static/media/menu-icon.20154236d06f10f27189d0956d110f48.svg",
     "static/media/email-contact-icon.svg": "/fungy/static/media/email-contact-icon.72ba2a3a098b1fb84f4cd560ecfd4c19.svg",
     "static/media/facebook-icon.svg": "/fungy/static/media/facebook-icon.31b0ada1ed98d064fe43c889dcec17a5.svg",
-    "main.3280e262.css.map": "/fungy/static/css/main.3280e262.css.map",
-    "main.79d51bc4.js.map": "/fungy/static/js/main.79d51bc4.js.map"
+    "main.cbbd1cc7.css.map": "/fungy/static/css/main.cbbd1cc7.css.map",
+    "main.91cf36c9.js.map": "/fungy/static/js/main.91cf36c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3280e262.css",
-    "static/js/main.79d51bc4.js"
+    "static/css/main.cbbd1cc7.css",
+    "static/js/main.91cf36c9.js"
   ]
 }
