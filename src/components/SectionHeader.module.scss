@@ -17,3 +17,9 @@
         color: global.$fontColorPrimary;
     }
 }
+
+@media (max-width: global.$mediaTabletPortrait) {
+    .sectionHeader {
+        font-size: 2.5rem;
+    }
+}

@@ -1,7 +1,7 @@
 @use '../../assets/global.module.scss' as global;
 
 .home {
-    min-height: 200vh;
+    min-height: 120vh;
     margin-top: -120px;
     animation: global.$animationShow;
 }

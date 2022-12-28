@@ -1,4 +1,6 @@
-.picture {
+@use '../../assets/global.module.scss' as global;
+
+.background {
     width: 100%;
     height: 100vh;
     background-image: url('../../assets/images/2.jpg');
@@ -6,4 +8,20 @@
     background-size: cover;
     background-position: center;
     box-shadow: 1px 1px 10px black;
+}
+
+.image {
+    display: none;
+}
+
+@media (max-width: calc(global.$mediaTabletPortrait + 300px)) {
+    .picture {
+        .background {
+            display: none;
+        }
+        .image {
+            display: flex;
+            width: 100%;
+        }
+    }
 }

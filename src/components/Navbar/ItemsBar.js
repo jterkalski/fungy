@@ -5,7 +5,7 @@ const ItemsBar = ({ visible }) => {
     return (
         <div className={visible ? styles.itemBar : `${styles.itemBar} ${styles.hidden}`}>
             <Item text='MUZYKA' path='/music' />
-            <Item text='O NAS' path='/about' />
+            <Item text='O&nbsp;NAS' path='/about' />
             <Item text='KONTAKT' path='/contact' />
         </div>
     );
