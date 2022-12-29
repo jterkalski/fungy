@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fungy/static/css/main.bcabdffe.css",
+    "main.css": "/fungy/static/css/main.41b5f45e.css",
     "main.js": "/fungy/static/js/main.d47f203a.js",
     "static/media/2.jpg": "/fungy/static/media/2.0f85a851ba9e27b37ce6.jpg",
     "static/media/4.jpg": "/fungy/static/media/4.b32c4bb7fd99ea73bc98.jpg",
@@ -17,11 +17,11 @@
     "static/media/menu-icon.svg": "/fungy/static/media/menu-icon.20154236d06f10f27189d0956d110f48.svg",
     "static/media/email-contact-icon.svg": "/fungy/static/media/email-contact-icon.72ba2a3a098b1fb84f4cd560ecfd4c19.svg",
     "static/media/facebook-icon.svg": "/fungy/static/media/facebook-icon.31b0ada1ed98d064fe43c889dcec17a5.svg",
-    "main.bcabdffe.css.map": "/fungy/static/css/main.bcabdffe.css.map",
+    "main.41b5f45e.css.map": "/fungy/static/css/main.41b5f45e.css.map",
     "main.d47f203a.js.map": "/fungy/static/js/main.d47f203a.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcabdffe.css",
+    "static/css/main.41b5f45e.css",
     "static/js/main.d47f203a.js"
   ]
 }
