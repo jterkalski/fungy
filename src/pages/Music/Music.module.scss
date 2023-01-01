@@ -43,11 +43,9 @@
         .musicSectionBody {
             padding-top: 2em;
             flex-direction: column;
-            // background-color: red;
         }
 
         .musicSectionText {
-            // background-color: orange;
             margin-top: 20px;
             width: global.$tabletWidth;
             span {
@@ -56,3 +54,13 @@
         }
     }
 }
+
+@media (max-width: global.$mediaSmartphonePortrait)  {
+        .musicSectionText {
+            max-width: global.$smartphoneWidth;
+            span {
+                text-align: start;
+            }
+        }
+}
+

@@ -18,3 +18,12 @@ iframe {
         min-height: global.$tabletHeight;
     }
 }
+
+@media (max-width: global.$mediaSmartphonePortrait) {
+    iframe {
+        width: global.$smartphoneWidth;
+        height: global.$smartphoneHeight;
+        min-width: global.$smartphoneWidth;
+        min-height: global.$smartphoneHeight;
+    }
+}
