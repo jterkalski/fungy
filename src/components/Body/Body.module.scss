@@ -29,5 +29,10 @@
 @media (max-width: global.$mediaSmartphonePortrait) {
     .body {
         padding-top: 100px;
+        // overflow: visible;
+    }
+    .body::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* make scrollbar transparent */
     }
 }
