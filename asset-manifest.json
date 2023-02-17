@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/fungy/static/css/main.8d4594ff.css",
-    "main.js": "/fungy/static/js/main.1a379aea.js",
-    "static/media/2.jpg": "/fungy/static/media/2.0f85a851ba9e27b37ce6.jpg",
-    "static/media/4.jpg": "/fungy/static/media/4.b32c4bb7fd99ea73bc98.jpg",
-    "static/media/3.jpg": "/fungy/static/media/3.111538c097414f638055.jpg",
-    "static/media/1.jpg": "/fungy/static/media/1.e77ec7747ca8cf19b91a.jpg",
+    "main.css": "/fungy/static/css/main.34e5e69f.css",
+    "main.js": "/fungy/static/js/main.15bf5da0.js",
+    "static/media/2.jpg": "/fungy/static/media/2.d1b2502fd188a35cc41c.jpg",
+    "static/media/1.jpg": "/fungy/static/media/1.20989e28e0d7e7fe9b6d.jpg",
+    "static/media/3.jpg": "/fungy/static/media/3.20989e28e0d7e7fe9b6d.jpg",
+    "static/media/4.jpg": "/fungy/static/media/4.c9624948671de8e15af7.jpg",
     "static/media/instagram-icon.svg": "/fungy/static/media/instagram-icon.7b6f6aa7f307c316562634c1f14b8aa8.svg",
     "static/media/apple-music-icon.svg": "/fungy/static/media/apple-music-icon.b3e7019cf86091195af06d0cd748d02d.svg",
     "static/media/tidal-icon.svg": "/fungy/static/media/tidal-icon.f0e07e34bb8d1cf010f14964e6274343.svg",
@@ -17,11 +17,11 @@
     "static/media/menu-icon.svg": "/fungy/static/media/menu-icon.20154236d06f10f27189d0956d110f48.svg",
     "static/media/email-contact-icon.svg": "/fungy/static/media/email-contact-icon.72ba2a3a098b1fb84f4cd560ecfd4c19.svg",
     "static/media/facebook-icon.svg": "/fungy/static/media/facebook-icon.31b0ada1ed98d064fe43c889dcec17a5.svg",
-    "main.8d4594ff.css.map": "/fungy/static/css/main.8d4594ff.css.map",
-    "main.1a379aea.js.map": "/fungy/static/js/main.1a379aea.js.map"
+    "main.34e5e69f.css.map": "/fungy/static/css/main.34e5e69f.css.map",
+    "main.15bf5da0.js.map": "/fungy/static/js/main.15bf5da0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d4594ff.css",
-    "static/js/main.1a379aea.js"
+    "static/css/main.34e5e69f.css",
+    "static/js/main.15bf5da0.js"
   ]
 }
