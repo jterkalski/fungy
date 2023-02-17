@@ -4,4 +4,16 @@
     min-height: 100vh;
     animation: global.$animationShow;
     margin-bottom: 100px;
+    .spacer {
+        display: none;
+    }
+}
+
+@media (max-width: global.$mediaSmartphonePortrait) {
+    .about {
+        .spacer {
+            display: block;
+            height: 5rem;
+        }
+    }
 }

@@ -1,11 +1,23 @@
+@use '../../assets/global.module.scss' as global;
+
 .icon {
     img {
         filter: invert(1) drop-shadow(2px 2px 3px black);
         width: 2.5rem;
         transition: 0.5s;
+        opacity: 85%;
     }
 }
 
 .icon img:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
+    opacity: 100%;
+}
+
+@media (max-width: global.$mediaSmartphonePortrait) {
+    .icon {
+        img {
+            width: 2rem;
+        }
+    }
 }

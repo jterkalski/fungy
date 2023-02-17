@@ -13,7 +13,7 @@ const About = () => {
     const text3 = `Do tej pory mamy nagrane cztery
                 single i pracujemy nad albumem składającym się z 6 utworów. Ponadto graliśmy
                 liczne koncerty w Krakowie.`;
-    const text4 = `Życie zespołowe to dla nas nie tylko opowiadanie nieśmiesznych żartów i dorywcze grywanie w niedziele o 17, to także wszelkie przedsięwzięcia audiowizualne które realizujemy wspólnie z naszymi przyjaciółmi.`;
+    const text4 = `Życie zespołowe to dla nas nie tylko opowiadanie nieśmiesznych żartów i dorywcze grywanie w niedziele o 17:00, to także wszelkie przedsięwzięcia audiowizualne które realizujemy wspólnie z naszymi przyjaciółmi.`;
 
     return (
         <div className={styles.about}>
@@ -22,6 +22,7 @@ const About = () => {
             <AboutCard src={image2} text={text2} variant='left' />
             <AboutCard src={image3} text={text3} variant='right' />
             <AboutCard src={image4} text={text4} variant='left' />
+            <div className={styles.spacer}></div>
         </div>
     );
 };

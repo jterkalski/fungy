@@ -6,11 +6,10 @@
     align-self: center;
     align-items: center;
     width: 50%;
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
-
-@media (max-width: global.$mediaSmartphonePortrait)  {
+@media (max-width: global.$mediaSmartphonePortrait) {
     .icons {
         width: 85%;
     }

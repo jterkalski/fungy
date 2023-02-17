@@ -1,5 +1,5 @@
 import styles from './Picture.module.scss';
-import image from '../../assets/images/2.jpg';
+import image from '../../assets/images/1.jpg';
 
 const Picture = () => {
     return (

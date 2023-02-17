@@ -5,3 +5,9 @@
     margin-top: -120px;
     animation: global.$animationShow;
 }
+
+@media (max-width: global.$mediaSmartphonePortrait) {
+    .home {
+        min-height: auto;
+    }
+}

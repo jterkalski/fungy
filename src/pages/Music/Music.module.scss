@@ -55,12 +55,17 @@
     }
 }
 
-@media (max-width: global.$mediaSmartphonePortrait)  {
+@media (max-width: global.$mediaSmartphonePortrait) {
+    .musicSection {
         .musicSectionText {
             max-width: global.$smartphoneWidth;
             span {
+                font-size: 1rem;
                 text-align: start;
             }
         }
+    }
+    .musicSection:last-child {
+        margin-bottom: 5rem;
+    }
 }
-
