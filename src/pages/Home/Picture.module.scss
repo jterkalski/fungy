@@ -17,13 +17,11 @@
 @media (max-width: calc(global.$mediaTabletPortrait + 300px)) {
     .picture {
         .background {
-            display: none;
+            background-image: url('../../assets/images/1.jpg');
         }
 
         .image {
-            display: flex;
-            width: 100%;
-            box-shadow: 1px 1px 10px black;
+            // display: block;
         }
     }
 }
