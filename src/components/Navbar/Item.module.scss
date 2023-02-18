@@ -10,3 +10,9 @@
     color: global.$fontColorPrimary;
     text-underline-offset: 10px;
 }
+
+@media (max-width: global.$mediaSmartphonePortrait) {
+    .item {
+        font-size: 1rem;
+    }
+}
