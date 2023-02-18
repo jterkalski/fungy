@@ -22,7 +22,6 @@ const About = () => {
             <AboutCard src={image2} text={text2} variant='left' />
             <AboutCard src={image3} text={text3} variant='right' />
             <AboutCard src={image4} text={text4} variant='left' />
-            <div className={styles.spacer}></div>
         </div>
     );
 };
